@@ -16,7 +16,7 @@ The motivation behind CompeGPT stems from the recognition that heuristically bin
 
 CompeGPT starts by leveraging a large language model (LLM) to analyze user input requests and decompose them into a set of structured subtasks. This involves identifying subtask requirements, extracting relevant data and contextual information, and determining dependencies and execution order.
 
-![architecture](./assets/architecture.png)
+![architecture](./assets/architecture.jpg)
 
 ### Optimal Subtask Result Acquisition
 
@@ -34,19 +34,19 @@ The LLM amalgamates the optimal results of all subtasks to generate a user-frien
 
 The effectiveness of the proposed result integration method has been validated.
 
-![gpt-4 dataset](./assets/gpt-4 dataset.png)
+![gpt-4 dataset](./assets/gpt-4 dataset.jpg)
 
 To demonstrate the model's validity and generalizability, we conducted experiments using additional pre-trained MLLMs across a broader range of multi-modal tasks.
 
-![MME](./assets/MME.png)
+![MME](./assets/MME.jpg)
 
-![MM-vet](./assets/MM-vet.png)
+![MM-vet](./assets/MM-vet.jpg)
 
 To further demonstrate the model's generalization ability, we conducted experiments on additional multi-modal large model benchmarks, including MME and MM-Vet.
 
-![image-20231126010421893](./assets/mme2.png)
+![image-20231126010421893](./assets/mme2.jpg)
 
-![image-20231126004951882](./assets/mmvet.png)
+![image-20231126004951882](./assets/mmvet.jpg)
 
 ## How to start
 
