@@ -34,13 +34,13 @@ The LLM amalgamates the optimal results of all subtasks to generate a user-frien
 
 The effectiveness of the proposed result integration method has been validated.
 
-![gpt-4 dataset](.\assets\gpt-4 dataset.png)
+![gpt-4 dataset](./assets/gpt-4 dataset.png)
 
 To demonstrate the model's validity and generalizability, we conducted experiments using additional pre-trained MLLMs across a broader range of multi-modal tasks.
 
-![MME](.\assets\MME.png)
+![MME](./assets/MME.png)
 
-![MM-vet](D:\projects\jarvis\CompeGPT\assets\MM-vet.png)
+![MM-vet](./assets/MM-vet.png)
 
 To further demonstrate the model's generalization ability, we conducted experiments on additional multi-modal large model benchmarks, including MME and MM-Vet.
 
