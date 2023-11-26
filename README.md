@@ -36,11 +36,11 @@ To further demonstrate the model's generalization ability, we conducted experime
 
 ![MME](./assets/1.jpg)
 
-The effectiveness of the proposed result integration method has been validated.
+To demonstrate the model's validity and generalizability, we conducted experiments using additional pre-trained MLLMs across a broader range of multi-modal tasks.
 
 ![2](./assets/2.jpg)
 
-To demonstrate the model's validity and generalizability, we conducted experiments using additional pre-trained MLLMs across a broader range of multi-modal tasks.
+The effectiveness of the proposed result integration method has been validated.
 
 ![3](./assets/3.jpg)
 
