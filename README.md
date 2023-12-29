@@ -135,4 +135,4 @@ python awesome_chat.py --config configs/config.default.yaml --mode cli
 
 ## Conclusion
 
-CompeGPT presents a novel approach to solving complex multi-modal tasks by allowing multiple pre-trained models to compete for the same subtask. Experimental results demonstrate its effectiveness, achieving state-of-the-art performance across various evaluation metrics. This dynamic orchestration method enhances the overall performance of multi-modal large language models in real-world applications.
+We consider the utilization of multiple pre-trained models to collectively accomplish the same subtask. By dynamically integrating the results from these pre-trained models, we can obtain the optimal result for the subtask within complex tasks, enhancing the performance of the MLLM. Additionally, we also demonstrate that when integrating results from different models for the same subtask, using small models proves to be more effective than using large ones. Overall, the solution proposed in this paper offers a concise and effective method for developing complex artificial intelligence systems.
