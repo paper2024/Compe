@@ -1,14 +1,8 @@
 # CompeGPT
 
-[![arXiv](https://img.shields.io/badge/arXiv-论文-<COLOR>.svg)](https://arxiv.org/abs/2308.16474)
+## Abstract
 
-## Introduction
-
-Multi-modal large language models (MLLMs) have gained significant attention as powerful tools for tackling complex tasks that involve both text and other modalities. In traditional MLLM workflows, complex tasks are decomposed into subtasks, and specific pre-trained models are heuristically selected to complete each subtask. However, this static binding of models to subtasks can lead to suboptimal results. This project introduces **CompeGPT**, a dynamic orchestration approach that allows different models to compete for the same subtask, resulting in an optimized overall performance.
-
-## Motivation
-
-The motivation behind CompeGPT stems from the recognition that heuristically binding a single model to a subtask may not always yield the most satisfying result. By allowing multiple pre-trained models to compete for the same subtask and dynamically selecting the best result, CompeGPT aims to maximize the potential for achieving optimal results in multi-modal tasks.
+Multi-modal large language models (MLLMs) are expanded from large language models (LLMs) with additional capabilities to infer multi-modal data. Current MLLM workflows, when dealing with complex tasks, typically begin by using an LLM to decompose the task into multiple subtasks, then heuristically selecting a specific pre-trained model to complete each subtask to get a result, and finally integrating all the results to obtain the final response. However, heuristically binding one model to one subtask may generate a less satisfying result, thereby affecting the overall performance. This paper proposes CompeGPT, which dynamically orchestrates the MLLM workflow by letting different models compete regarding the same subtask instead of statically binding them. Specifically, given a certain task, CompeGPT first decomposes it into subtasks, then employs multiple pre-trained models to execute the same subtask in parallel, then evaluates their results and selects the best one, finally integrating these selected results into a complete workflow thus obtaining the best overall performance. We conducted extensive experiments across four datasets: the GPT-4 annotated dataset, the human-annotated dataset, the MME dataset, and the MM-Vet dataset. The experimental results demonstrate that CompeGPT achieves significantly improved performance on all datasets, demonstrating its effectiveness.
 
 ## Methodology
 
@@ -31,10 +25,6 @@ CompeGPT starts by leveraging a large language model (LLM) to analyze user input
 The LLM amalgamates the optimal results of all subtasks to generate a user-friendly response. The response includes a concise summary of planning tasks and optimal results for each subtask.
 
 ## Experimental Results
-
-To further demonstrate the model's generalization ability, we conducted experiments on additional multi-modal large model benchmarks, including MME and MM-Vet.
-
-![MME](./assets/1.jpg)
 
 To demonstrate the model's validity and generalizability, we conducted experiments using additional pre-trained MLLMs across a broader range of multi-modal tasks.
 
