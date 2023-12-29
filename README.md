@@ -26,7 +26,7 @@ The LLM amalgamates the optimal results of all subtasks to generate a user-frien
 
 ## Experimental Results
 
-To demonstrate the model's validity and generalizability, we conducted experiments using additional pre-trained MLLMs across a broader range of multi-modal tasks.
+To demonstrate the validity and generalizability of the model, we also conducted experiments using the second type of MLLMs (BLIP-2-12B and LLaVA-13B) as the baseline model. These experiments encompassed a broader spectrum of multi-modal tasks on the MME and MM-Vet datasets.
 
 ![2](./assets/2.jpg)
 
