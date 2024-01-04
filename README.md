@@ -30,7 +30,7 @@ To demonstrate the validity and generalizability of the model, we also conducted
 
 ![2](./assets/2.jpg)
 
-The effectiveness of the proposed result integration method has been validated.
+After obtaining results from multiple high-performance models, the paramount task involves integrating these results to select the optimal result. This paper undertook an extensive methodological design and conducted rigorous experimental verification to identify the most suitable approach for optimal result selection. We have designed three different methods: 1) Directly use the LLM to select the optimal result from multiple results (LLM Only); 2) First use the LLM to calculate the similarity matrix of the results, and then let the LLM select the optimal result based on the results and the similarity matrix (LLM SM) ; 3) First use the similarity matrix algorithm to calculate the similarity matrix of the results, and then let the LLM select the optimal result based on the results and the similarity matrix (SMA+LLM). Table 9 provides a detailed exposition of the specific designs of these three methods. The experimental results of the three methods and the baseline model are presented in Table 8.
 
 ![3](./assets/3.jpg)
 
